@@ -9,12 +9,13 @@
 /* Begin PBXBuildFile section */
 		B68EC3D02537247A002B54CB /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B68EC3CF2537247A002B54CB /* AppDelegate.swift */; };
 		B68EC3D22537247A002B54CB /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B68EC3D12537247A002B54CB /* SceneDelegate.swift */; };
-		B68EC3D42537247A002B54CB /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B68EC3D32537247A002B54CB /* ViewController.swift */; };
+		B68EC3D42537247A002B54CB /* Login+SigninVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = B68EC3D32537247A002B54CB /* Login+SigninVC.swift */; };
 		B68EC3D72537247A002B54CB /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B68EC3D52537247A002B54CB /* Main.storyboard */; };
 		B68EC3D92537247C002B54CB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B68EC3D82537247C002B54CB /* Assets.xcassets */; };
 		B68EC3DC2537247C002B54CB /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B68EC3DA2537247C002B54CB /* LaunchScreen.storyboard */; };
 		B68EC3E72537247C002B54CB /* SimpleDemoMVVMTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B68EC3E62537247C002B54CB /* SimpleDemoMVVMTests.swift */; };
 		B68EC3F22537247C002B54CB /* SimpleDemoMVVMUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B68EC3F12537247C002B54CB /* SimpleDemoMVVMUITests.swift */; };
+		B68EC4032537BB61002B54CB /* SigninWebviewVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = B68EC4022537BB61002B54CB /* SigninWebviewVC.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -38,7 +39,7 @@
 		B68EC3CC2537247A002B54CB /* SimpleDemoMVVM.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SimpleDemoMVVM.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		B68EC3CF2537247A002B54CB /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		B68EC3D12537247A002B54CB /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		B68EC3D32537247A002B54CB /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		B68EC3D32537247A002B54CB /* Login+SigninVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Login+SigninVC.swift"; sourceTree = "<group>"; };
 		B68EC3D62537247A002B54CB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		B68EC3D82537247C002B54CB /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		B68EC3DB2537247C002B54CB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -49,6 +50,7 @@
 		B68EC3ED2537247C002B54CB /* SimpleDemoMVVMUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SimpleDemoMVVMUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		B68EC3F12537247C002B54CB /* SimpleDemoMVVMUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SimpleDemoMVVMUITests.swift; sourceTree = "<group>"; };
 		B68EC3F32537247C002B54CB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B68EC4022537BB61002B54CB /* SigninWebviewVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SigninWebviewVC.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,7 +103,8 @@
 			children = (
 				B68EC3CF2537247A002B54CB /* AppDelegate.swift */,
 				B68EC3D12537247A002B54CB /* SceneDelegate.swift */,
-				B68EC3D32537247A002B54CB /* ViewController.swift */,
+				B68EC3D32537247A002B54CB /* Login+SigninVC.swift */,
+				B68EC4022537BB61002B54CB /* SigninWebviewVC.swift */,
 				B68EC3D52537247A002B54CB /* Main.storyboard */,
 				B68EC3D82537247C002B54CB /* Assets.xcassets */,
 				B68EC3DA2537247C002B54CB /* LaunchScreen.storyboard */,
@@ -258,9 +261,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				B68EC3D42537247A002B54CB /* ViewController.swift in Sources */,
+				B68EC3D42537247A002B54CB /* Login+SigninVC.swift in Sources */,
 				B68EC3D02537247A002B54CB /* AppDelegate.swift in Sources */,
 				B68EC3D22537247A002B54CB /* SceneDelegate.swift in Sources */,
+				B68EC4032537BB61002B54CB /* SigninWebviewVC.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
